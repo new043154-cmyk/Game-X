@@ -1,0 +1,6 @@
+{
+  "name": "BattleZone X - 3D Online Multiplayer Battle Royale",
+  "description": "BattleZone X is an authentic 3D online multiplayer battle royale experience with realistic terrain, vehicles, responsive mobile touch and keyboard controls, real-time authoritative WebSockets, shrinking safe zones, airdrops, and procedural audio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

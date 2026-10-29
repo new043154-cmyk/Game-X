@@ -1,0 +1,1157 @@
+# BATTLEZONE X — ULTIMATE AAA 3D ONLINE MULTIPLAYER BATTLE ROYALE
+
+## COMPLETE MASTER PROMPT — ANDROID + REAL ONLINE MULTIPLAYER + BACKEND + APK
+
+Act as a complete professional game development studio consisting of senior game programmers, 3D environment artists, multiplayer network engineers, backend developers, UI/UX designers, Android build engineers, security engineers and QA testers.
+
+Your mission is to design, implement, test and package an original, realistic 3D online multiplayer battle royale game named **BATTLEZONE X**.
+
+The game should deliver the excitement of modern mobile battle royale games while maintaining its own original identity, gameplay, art style, map design, weapons, characters, UI and branding.
+
+Do not copy proprietary assets, source code, maps, logos, characters or distinctive UI designs from existing commercial games.
+
+The result must be a genuinely playable game, not a static design, clickable mockup, single-player simulation falsely labeled multiplayer, or a collection of incomplete scripts.
+
+---
+
+# PART 1 — PROJECT CONFIGURATION
+
+Game Name: BattleZone X
+
+Game Genre: Realistic 3D Online Multiplayer Battle Royale
+
+Target Platform: Android smartphones
+
+Development Environment: AI-assisted game development using an Android phone, browser-based tools and cloud build infrastructure where required.
+
+Preferred Game Engine: Unity 3D
+
+Programming Language: C#
+
+Preferred Multiplayer Technology: Photon Fusion 2 or another compatible networking solution with an appropriate authoritative server architecture.
+
+Backend: A secure, documented backend compatible with the selected game architecture.
+
+Target Orientation: Landscape
+
+Camera: Third-person by default, with optional first-person aiming if implemented.
+
+Initial Match Size: Start with 4–8 real players for the first verified multiplayer milestone, then increase the target gradually after performance and server capacity tests.
+
+Initial Map: One compact, original battle royale map.
+
+Initial Game Modes: Training, Solo, Duo, Squad and Team Deathmatch, introduced incrementally.
+
+Design Goal: Premium mobile shooter experience with realistic 3D graphics, responsive controls, stable networking, optimized performance and maintainable source code.
+
+Important: Do not assume that every AI Game Builder supports Unity, C#, dedicated servers or APK compilation. First inspect the available tool capabilities. If the selected builder cannot export a compatible project, provide an alternative phone-accessible workflow with exportable source files and cloud compilation.
+
+# PART 2 — COMPLETE GAME DESIGN
+
+Create an immersive 3D battle royale world in which players enter a match, explore the environment, collect equipment, survive a shrinking safe zone and compete until one eligible player or team remains.
+
+The game must contain:
+
+* A complete main menu and lobby.
+* Player profile and customization.
+* Real online multiplayer sessions.
+* Matchmaking and team creation.
+* A playable 3D environment.
+* Character movement and camera control.
+* Weapons, ammunition and combat.
+* Health, armor and healing.
+* Loot and inventory.
+* Vehicles.
+* Safe-zone mechanics.
+* Death, spectator and victory systems.
+* Match statistics and progression.
+* Audio, visual effects and animations.
+* Settings and accessibility controls.
+* Backend persistence.
+* Secure server-side game validation.
+* Android APK build and testing instructions.
+
+Build a small, complete and functional version first. Do not generate hundreds of unconnected assets or empty scripts just to make the project appear large.
+
+# PART 3 — REALISTIC 3D GRAPHICS
+
+Create an original high-quality 3D visual style.
+
+Environment requirements:
+
+* Detailed terrain with hills, valleys, rocks and vegetation.
+* Roads, bridges, buildings and accessible interiors.
+* Military-style compounds and industrial areas.
+* Small villages and urban structures.
+* Forests and open fields.
+* Water features where appropriate.
+* Original environmental props and landmarks.
+* Realistic surface materials.
+* Dynamic or baked lighting appropriate for mobile performance.
+* Skybox, fog and atmospheric effects.
+* Daylight and optional weather variation.
+* Shadows optimized for the target hardware.
+* Destructible props only where technically practical.
+* Collision meshes and navigation-aware geometry.
+* Level-of-detail models.
+* Occlusion culling and efficient scene loading.
+
+Visual effects:
+
+* Weapon muzzle flashes.
+* Bullet impact effects.
+* Dust and debris.
+* Smoke and explosion effects.
+* Environmental particles.
+* Vehicle dust and tire effects.
+* Damage feedback.
+* Safe-zone warning effects.
+* Victory and defeat effects.
+
+Use original assets or assets with compatible licenses.
+
+Do not use oversized textures or expensive real-time effects indiscriminately. Supply adjustable graphics presets and performance-friendly fallbacks.
+
+# PART 4 — MAP AND WORLD DESIGN
+
+Create an original map named **Frontier Island**.
+
+The map should contain these locations:
+
+1. Central City.
+2. Military Research Base.
+3. Industrial Port.
+4. Abandoned Airport.
+5. Riverside Village.
+6. Forest Camp.
+7. Mountain Observatory.
+8. Deserted Factory.
+9. Coastal Settlement.
+10. Underground Shelter.
+11. Bridge Crossing.
+12. Supply Drop Zone.
+
+Each location should have a distinct visual identity and gameplay purpose.
+
+Map systems:
+
+* Full-screen map.
+* In-game minimap.
+* Player position.
+* Teammate positions.
+* Objective markers.
+* Custom waypoints.
+* Loot spawn points.
+* Vehicle spawn points.
+* Randomized loot distribution.
+* Safe-zone phases.
+* Out-of-zone damage.
+* Match-specific zone placement.
+* Environmental collision and navigation.
+* Spawn validation.
+* Basic world streaming or scene partitioning when necessary.
+
+The first playable map should be small enough to test on Android hardware. Expand its dimensions only after the game meets its initial performance targets.
+
+# PART 5 — PLAYER CHARACTER SYSTEM
+
+Implement a fully functional third-person character.
+
+Movement:
+
+* Idle.
+* Walk.
+* Run.
+* Sprint.
+* Jump.
+* Fall.
+* Land.
+* Crouch.
+* Prone where supported.
+* Turn and rotate.
+* Aim.
+* Shoot.
+* Reload.
+* Switch weapons.
+* Interact.
+* Climb or vault over supported obstacles.
+* Enter and exit vehicles.
+
+Character systems:
+
+* Animation state machine.
+* Smooth movement transitions.
+* Camera-relative movement.
+* Collision detection.
+* Ground detection.
+* Falling and landing handling.
+* Health and armor.
+* Damage reactions.
+* Elimination state.
+* Spectator state.
+* Character appearance.
+* Outfit and cosmetic slots.
+* Network synchronization.
+* Server validation of important gameplay actions.
+
+Do not allow client-side animations to determine actual damage, rewards or match outcomes.
+
+# PART 6 — PROFESSIONAL MOBILE CONTROLS
+
+Build a responsive landscape touch interface.
+
+Left side:
+
+* Movement joystick.
+* Sprint control.
+* Optional auto-sprint.
+
+Right side:
+
+* Camera rotation area.
+* Fire button.
+* Aim-down-sights button.
+* Jump button.
+* Crouch button.
+* Prone button.
+* Reload button.
+* Weapon switch buttons.
+* Grenade button.
+* Interaction button.
+* Vehicle controls when seated.
+
+Additional controls:
+
+* Inventory.
+* Map.
+* Teammate list.
+* Voice-chat toggle.
+* Quick-chat.
+* Ping system.
+* Pause and settings.
+* Exit-match confirmation.
+
+Control customization:
+
+* Adjustable sensitivity.
+* Separate camera and ADS sensitivity.
+* Scope sensitivity.
+* Optional gyroscope.
+* Optional aim assistance.
+* Button repositioning.
+* Button size and opacity.
+* Left-handed layout.
+* HUD layout presets.
+* Control reset button.
+
+Every button must invoke real gameplay logic.
+
+Handle multitouch input correctly. Moving, aiming and firing must work simultaneously without accidental button conflicts.
+
+# PART 7 — WEAPONS AND COMBAT
+
+Create a modular weapon framework.
+
+Weapon categories:
+
+* Assault rifles.
+* Submachine guns.
+* Shotguns.
+* Sniper rifles.
+* Designated marksman rifles.
+* Pistols.
+* Melee weapons.
+* Frag grenades.
+* Smoke grenades.
+* Other tactical equipment where implemented.
+
+Each weapon must have configurable properties:
+
+* Unique weapon ID.
+* Display name.
+* Damage.
+* Fire rate.
+* Magazine size.
+* Reload time.
+* Recoil.
+* Spread.
+* Effective range.
+* Bullet speed when applicable.
+* Fire mode.
+* ADS support.
+* Scope compatibility.
+* Attachment compatibility.
+* Animation references.
+* Sound references.
+* Muzzle effects.
+* Impact effects.
+* Ammunition type.
+
+Implement:
+
+* Single fire.
+* Burst fire where supported.
+* Automatic fire where supported.
+* Weapon switching.
+* Reloading.
+* Empty-magazine handling.
+* Ammunition reserves.
+* Hip-fire.
+* ADS.
+* Scope zoom.
+* Recoil and weapon spread.
+* Hit detection.
+* Hit markers.
+* Directional damage indicators.
+* Head, body and limb hit zones.
+* Armor mitigation.
+* Damage falloff.
+* Server-validated hit results.
+* Weapon pickup and dropping.
+
+Use server-authoritative combat validation. The client can predict visual feedback, but the server must determine accepted damage and final combat outcomes.
+
+# PART 8 — LOOT AND INVENTORY
+
+Implement a fully interactive inventory system.
+
+Loot categories:
+
+* Weapons.
+* Ammunition.
+* Helmets.
+* Body armor.
+* Backpacks.
+* Medical items.
+* Boost items.
+* Weapon attachments.
+* Grenades.
+* Utility equipment.
+* Cosmetic rewards where appropriate.
+
+Inventory features:
+
+* Nearby loot display.
+* Tap-to-pickup.
+* Equip and unequip.
+* Drop item.
+* Replace weapon.
+* Swap attachments.
+* Manage ammunition.
+* Backpack capacity.
+* Stackable consumables.
+* Item rarity.
+* Loot tables.
+* Supply crates.
+* Match-specific loot generation.
+* Inventory persistence during the current match.
+* Server validation of inventory transactions.
+
+Prevent duplicated items, unauthorized pickups, invalid item quantities and client-generated rewards.
+
+# PART 9 — HEALTH, ARMOR AND HEALING
+
+Create a robust combat survival system.
+
+Include:
+
+* Player health.
+* Armor durability.
+* Configurable damage multipliers.
+* Healing items.
+* Healing progress.
+* Healing interruption when appropriate.
+* Damage feedback.
+* Knockdown state for supported squad modes.
+* Teammate revival.
+* Final elimination.
+* Spectator transition.
+* Death-cause information.
+* Elimination feed.
+
+Server rules must control health changes, damage, revivals, eliminations and rewards.
+
+# PART 10 — SAFE ZONE AND MATCH SURVIVAL
+
+Implement a complete safe-zone system.
+
+Features:
+
+* Initial safe zone.
+* Future zone indicator.
+* Shrinking boundary.
+* Countdown before each phase.
+* Damage outside the safe zone.
+* Zone warnings.
+* Minimap and full-map display.
+* Server-authoritative zone state.
+* Match-specific randomization.
+* Configurable phase duration.
+* Final-zone behavior.
+
+The server must determine zone timing, position and damage.
+
+Players should receive clear visual and audio warnings before each zone change.
+
+# PART 11 — VEHICLES
+
+Create an extensible vehicle framework.
+
+Initial vehicles:
+
+* Jeep.
+* Off-road vehicle.
+* Motorcycle.
+* Utility truck.
+* Boat if supported by the map.
+
+Implement:
+
+* Enter and exit interactions.
+* Driver and passenger seats.
+* Steering.
+* Acceleration and braking.
+* Vehicle physics.
+* Collision.
+* Vehicle health.
+* Damage and destruction.
+* Engine sounds.
+* Vehicle camera.
+* Fuel or energy mechanics where appropriate.
+* Network synchronization.
+* Server-side validation.
+* Passenger state synchronization.
+
+Begin with one functional vehicle. Add the remaining types only after vehicle movement and network state are reliable.
+
+# PART 12 — REAL ONLINE MULTIPLAYER NETWORKING
+
+This section is mandatory.
+
+Do not simulate remote players locally and label them real online opponents.
+
+Choose a compatible multiplayer framework after verifying its current API, licensing, service requirements and server deployment options.
+
+Preferred approach:
+
+* Unity with C#.
+* Photon Fusion 2 or a compatible networking stack.
+* Authoritative server or supported authoritative host architecture.
+* Real online sessions.
+* Secure matchmaking and session management.
+* Backend persistence.
+
+Networking features:
+
+1. Player connection and disconnection.
+2. Session creation.
+3. Session discovery or matchmaking.
+4. Join and leave operations.
+5. Unique network player identity.
+6. Networked character spawning.
+7. Synchronized movement.
+8. Networked animation state.
+9. Networked weapons and firing state.
+10. Server-validated combat.
+11. Shared health and elimination.
+12. Synchronized loot.
+13. Vehicle state.
+14. Safe-zone state.
+15. Match timer.
+16. Team membership.
+17. Spectator state.
+18. Match results.
+19. Reconnection handling.
+20. Connection diagnostics.
+
+Implement:
+
+* Network interpolation.
+* Client prediction where appropriate.
+* Lag compensation where supported.
+* Interest management.
+* Network object ownership rules.
+* Server-side input validation.
+* Rate limiting.
+* Session cleanup.
+* Timeout handling.
+* Version compatibility checks.
+
+Do not trust a player's device to report authoritative damage, inventory, match results or rewards.
+
+Clearly distinguish dedicated-server networking from peer-hosted networking. If the selected SDK requires a paid plan, configured cloud service or separate server process for the chosen architecture, document that requirement before implementation.
+
+# PART 13 — MATCHMAKING AND GAME MODES
+
+Create these modes progressively.
+
+### Training Ground
+
+* Offline or local practice where supported.
+* Movement tutorial.
+* Weapon practice.
+* Target practice.
+* Control settings.
+
+### Solo Battle Royale
+
+* Individual competition.
+* Survival-based scoring.
+* Last eligible player wins.
+
+### Duo Battle Royale
+
+* Teams of two.
+* Team matchmaking.
+* Teammate identification.
+* Revival system if enabled.
+* Team victory conditions.
+
+### Squad Battle Royale
+
+* Teams of up to four players.
+* Squad leader.
+* Invite and join system.
+* Teammate markers.
+* Team voice chat where configured.
+* Revival and spectator mechanics.
+
+### Team Deathmatch
+
+* Two opposing teams.
+* Short match duration.
+* Respawns.
+* Team score.
+* Match timer.
+* Victory conditions.
+
+Implement only modes that have complete gameplay logic and are testable. Do not show unsupported modes as functional.
+
+# PART 14 — COMPLETE MATCH LIFECYCLE
+
+Implement this sequence:
+
+1. Start the application.
+2. Load configuration and initialize required services.
+3. Enter the lobby or guest mode.
+4. Load the player's profile.
+5. Select a game mode.
+6. Create or join a party if needed.
+7. Start matchmaking.
+8. Join a valid online session.
+9. Enter the pre-match waiting area.
+10. Wait for the configured match start conditions.
+11. Spawn players at valid locations.
+12. Start the match timer.
+13. Enable gameplay.
+14. Spawn or distribute loot.
+15. Activate safe-zone phases.
+16. Process movement and combat.
+17. Handle disconnects and eliminations.
+18. Determine the winner on the authoritative game server.
+19. Finalize match statistics.
+20. Save authorized progression and rewards.
+21. Display the results screen.
+22. Return to the lobby.
+
+Handle failed matchmaking, unavailable servers, empty sessions, server shutdowns, app backgrounding and unexpected disconnections.
+
+# PART 15 — PREMIUM LOBBY AND UI
+
+Design a polished, original tactical interface.
+
+Visual direction:
+
+* Dark charcoal background.
+* Original orange or electric-blue accent color.
+* Clean modern typography.
+* Clear iconography.
+* Subtle animations.
+* Responsive cards and panels.
+* Readable touch targets.
+* High contrast.
+* Original game branding.
+
+Screens:
+
+* Splash screen.
+* Loading screen.
+* Welcome screen.
+* Guest entry.
+* Authentication.
+* Main lobby.
+* Character preview.
+* Player profile.
+* Mode selection.
+* Matchmaking.
+* Waiting room.
+* In-game HUD.
+* Map.
+* Inventory.
+* Loot pickup.
+* Teammate panel.
+* Friends.
+* Party management.
+* Settings.
+* Graphics settings.
+* Audio settings.
+* Control customization.
+* Sensitivity settings.
+* Match results.
+* Match history.
+* Missions.
+* Achievements.
+* Leaderboards.
+* Cosmetic collection.
+* Connection errors.
+* Reconnection screen.
+* Privacy and account options.
+
+Main lobby elements:
+
+* 3D character preview.
+* Character rotation.
+* Equipped cosmetic display.
+* Start Match button.
+* Mode selection.
+* Player level.
+* Experience progress.
+* Currency indicators.
+* Friends list.
+* Squad invitations.
+* Daily mission panel.
+* Reward panel.
+* Settings button.
+
+All visible controls must be connected to real functionality or clearly disabled with an explanation.
+
+# PART 16 — PLAYER ACCOUNT AND PROGRESSION
+
+Implement secure account and progression services.
+
+Features:
+
+* Guest access where supported.
+* Account linking.
+* Unique player IDs.
+* Player display names.
+* Player avatar.
+* Profile statistics.
+* Match history.
+* Experience and levels.
+* Achievement tracking.
+* Daily and weekly missions.
+* Cosmetic unlocks.
+* Friends and parties.
+* Leaderboards.
+* Report and block functions.
+
+Validate all rewards on the backend or authoritative server.
+
+Do not store passwords, privileged credentials or secret API keys in plain text inside the APK.
+
+Provide account deletion and data-management options consistent with the selected service and applicable requirements.
+
+# PART 17 — BACKEND ARCHITECTURE
+
+Design a backend that supports:
+
+* Authentication.
+* Player profiles.
+* Player progression.
+* Match history.
+* Leaderboards.
+* Party information.
+* Mission status.
+* Reward validation.
+* Basic moderation.
+* Server-side event logs.
+
+Create a documented data model with entities such as:
+
+PlayerProfile:
+
+* playerId
+* displayName
+* level
+* experience
+* selectedCosmetics
+* createdAt
+* updatedAt
+
+MatchRecord:
+
+* matchId
+* playerId
+* gameMode
+* placement
+* eliminations
+* survivalDuration
+* serverVerifiedResult
+* completedAt
+
+InventoryRecord:
+
+* playerId
+* itemId
+* quantity
+* ownershipStatus
+
+PartyRecord:
+
+* partyId
+* leaderId
+* memberIds
+* selectedMode
+* createdAt
+
+Use the data model only as a starting point; adjust it to the chosen backend's supported schema.
+
+Security requirements:
+
+* Server-side authorization.
+* Input validation.
+* Rate limiting.
+* Session validation.
+* Secure token handling.
+* Database access restrictions.
+* Abuse monitoring.
+* Safe logging.
+* Backup and recovery planning.
+
+Use environment variables or the hosting provider's secret-management system for privileged keys.
+
+Never generate fake live credentials, hardcoded production secrets or invented endpoint URLs.
+
+# PART 18 — FRIENDS, SQUADS AND COMMUNICATION
+
+Implement optional social systems:
+
+* Add friends.
+* Accept or reject friend requests.
+* Online status.
+* Invite to party.
+* Leave party.
+* Kick from party where authorized.
+* Squad leader assignment.
+* Ready status.
+* Team markers.
+* Quick-chat messages.
+* Ping system.
+* Mute and report.
+* Push-to-talk voice communication where supported.
+
+Use a supported voice service if voice chat is included.
+
+Request microphone permission only when needed. Include mute controls, privacy information, abuse reporting and safe handling of failed voice connections.
+
+If no voice service is configured, implement the rest of the game and mark voice chat as pending rather than pretending it works.
+
+# PART 19 — AUDIO SYSTEM
+
+Create a modular audio system for:
+
+* Footsteps.
+* Weapon firing.
+* Reloading.
+* Weapon switching.
+* Bullet impacts.
+* Explosions.
+* Vehicle engines.
+* Environmental ambience.
+* Wind and weather.
+* Interface interactions.
+* Zone warnings.
+* Match start.
+* Victory and defeat.
+* Teammate communication.
+
+Support positional audio, sound attenuation, audio pooling and separate volume controls.
+
+Use original or appropriately licensed audio assets.
+
+# PART 20 — SETTINGS AND ACCESSIBILITY
+
+Implement:
+
+* Graphics quality.
+* Resolution scaling.
+* Frame-rate options supported by the device.
+* Shadow quality.
+* Audio volumes.
+* Music toggle.
+* Vibration toggle.
+* Camera sensitivity.
+* ADS sensitivity.
+* Scope sensitivity.
+* Gyroscope settings.
+* Aim-assistance settings.
+* Control layout customization.
+* Language selection architecture.
+* Subtitle and notification preferences.
+* Account options.
+* Privacy settings.
+* Support information.
+
+Do not promise 60 or 120 FPS on every device. Measure performance on real target hardware and expose only supported options.
+
+# PART 21 — ANTI-CHEAT AND FAIR PLAY
+
+Implement practical, layered protections:
+
+* Server-authoritative damage.
+* Movement speed validation.
+* Invalid firing-rate detection.
+* Ammunition validation.
+* Inventory ownership checks.
+* Reward-claim validation.
+* Session authentication.
+* Request rate limiting.
+* Match-result verification.
+* Duplicate transaction prevention.
+* Suspicious-action logging.
+* Basic report and moderation tools.
+
+Do not rely on client-side anti-cheat checks alone.
+
+Avoid automatic permanent bans based on a single unverified anomaly. Include server logs and a review process for serious enforcement.
+
+Document security limitations and test common abuse scenarios.
+
+# PART 22 — ANDROID PERFORMANCE
+
+Optimize for a range of supported Android devices.
+
+Implement:
+
+* Object pooling.
+* LOD.
+* Occlusion culling.
+* Efficient collision geometry.
+* Texture compression.
+* Audio compression.
+* Shader optimization.
+* Reduced unnecessary allocations.
+* Asynchronous asset loading.
+* Memory-aware scene management.
+* Efficient network updates.
+* Network interest management.
+* Graphics presets.
+* Thermal-performance considerations.
+* Battery-aware rendering options.
+* Crash and diagnostic logging.
+
+Establish measured targets rather than guaranteed hardware-independent performance.
+
+Test on a lower-end device and a mid-range device before expanding content.
+
+# PART 23 — REQUIRED PROJECT FILES
+
+Generate actual source files and assets appropriate to the selected engine.
+
+Suggested Unity structure:
+
+BattleZoneX/
+
+* Assets/
+
+  * Scenes/
+
+    * Boot.unity
+    * MainMenu.unity
+    * Lobby.unity
+    * TrainingGround.unity
+    * BattleMap.unity
+  * Scripts/
+
+    * Core/
+    * Player/
+    * Camera/
+    * Input/
+    * Combat/
+    * Weapons/
+    * Inventory/
+    * Loot/
+    * Vehicles/
+    * SafeZone/
+    * Multiplayer/
+    * Matchmaking/
+    * Backend/
+    * UI/
+    * Audio/
+    * Security/
+  * Prefabs/
+
+    * Player/
+    * Weapons/
+    * Loot/
+    * Vehicles/
+    * Environment/
+    * UI/
+  * Materials/
+  * Textures/
+  * Models/
+  * Animations/
+  * Audio/
+  * ScriptableObjects/
+  * Settings/
+  * Tests/
+* Packages/
+* ProjectSettings/
+* README.md
+
+Create these logical source modules as needed:
+
+GameBootstrap.cs
+GameManager.cs
+MatchManager.cs
+NetworkSessionManager.cs
+PlayerController.cs
+PlayerNetworkController.cs
+PlayerHealth.cs
+PlayerAnimationController.cs
+CameraController.cs
+MobileInputController.cs
+WeaponBase.cs
+WeaponManager.cs
+ProjectileSystem.cs
+InventoryManager.cs
+LootSpawner.cs
+SafeZoneManager.cs
+VehicleController.cs
+SquadManager.cs
+MatchmakingManager.cs
+PlayerProfileService.cs
+BackendAPIClient.cs
+AudioManager.cs
+UIManager.cs
+SettingsManager.cs
+SecurityValidator.cs
+
+This is a suggested architecture, not a requirement to create empty files. Use the correct SDK-specific components and interfaces.
+
+Also provide:
+
+* Package manifest.
+* Dependency version list.
+* Project settings.
+* Scene setup guide.
+* Prefab configuration.
+* Input configuration.
+* Android build settings.
+* Multiplayer configuration template.
+* Backend configuration template.
+* Server deployment instructions.
+* Environment variable examples.
+* Original app icon.
+* Original splash screen.
+* README.
+* Troubleshooting guide.
+* Test checklist.
+* Build and release instructions.
+
+Do not output a list of filenames without supplying the actual files or explaining how to create them.
+
+# PART 24 — PHONE-ONLY DEVELOPMENT AND CLOUD BUILD
+
+The developer is using an Android phone, not relying on a desktop computer.
+
+Prefer a workflow that supports browser access, file editing, ZIP export and cloud builds.
+
+Required workflow:
+
+1. Check whether the chosen AI Builder supports Unity or the required 3D engine.
+2. Confirm it can export real source files.
+3. Create the initial project structure.
+4. Generate and validate scripts in small batches.
+5. Import assets and configure scenes.
+6. Install compatible dependencies.
+7. Configure networking and backend services.
+8. Upload the project to a compatible cloud build environment when required.
+9. Build an Android APK.
+10. Install the APK on a test phone.
+11. Install the same build on a second Android phone.
+12. Join both phones to the same online session.
+13. Verify synchronized movement and shared match state.
+14. Review logs and resolve errors.
+15. Repeat the build and test cycle.
+16. Export the source project and final documentation.
+
+If direct Unity compilation is unavailable on Android, use a legitimate cloud build service or remote development environment.
+
+Do not claim that a builder can compile Unity projects until its current capabilities have been verified.
+
+Never request that users expose private server credentials in public prompts or source repositories.
+
+# PART 25 — DEVELOPMENT MILESTONES
+
+## Milestone 1: Project Foundation
+
+* Create the engine project.
+* Configure Android settings.
+* Create the boot scene.
+* Create the main menu.
+* Create a basic 3D training map.
+* Create the player character.
+* Implement touch movement and camera control.
+
+Acceptance criteria: The project opens, builds and runs on Android.
+
+## Milestone 2: Combat Prototype
+
+* Implement one weapon.
+* Add aiming and firing.
+* Add ammunition and reloading.
+* Add health and damage.
+* Add basic targets.
+* Add animations and audio.
+
+Acceptance criteria: Combat works locally without critical errors.
+
+## Milestone 3: Real Multiplayer
+
+* Configure the networking SDK.
+* Configure session creation.
+* Spawn multiple networked players.
+* Synchronize movement.
+* Add network diagnostics.
+* Validate state ownership.
+* Test with two independent clients.
+
+Acceptance criteria: Two separate devices can join one real online session and observe synchronized player movement.
+
+## Milestone 4: Authoritative Match
+
+* Add server-validated damage.
+* Add synchronized health.
+* Add player elimination.
+* Add match timers.
+* Add safe-zone state.
+* Add victory conditions.
+
+Acceptance criteria: Match state and results are determined by the appropriate authoritative game server.
+
+## Milestone 5: Battle Royale Gameplay
+
+* Add loot spawning.
+* Add inventory.
+* Add the first complete map.
+* Add healing.
+* Add a shrinking safe zone.
+* Add spectator mode.
+* Add match results.
+
+Acceptance criteria: A complete small-scale match can be played from beginning to end.
+
+## Milestone 6: Matchmaking and Backend
+
+* Add matchmaking.
+* Add Solo and Squad support as practical.
+* Add profiles.
+* Save match history.
+* Add verified progression.
+* Add reconnection handling.
+
+Acceptance criteria: Players can enter matches and retrieve valid saved progression.
+
+## Milestone 7: Vehicles and Polish
+
+* Add one drivable vehicle.
+* Improve animations.
+* Improve environmental audio.
+* Refine the HUD.
+* Optimize graphics.
+* Add control customization.
+
+Acceptance criteria: The new systems function on supported Android hardware without introducing critical regressions.
+
+## Milestone 8: Production Testing
+
+* Test different Android devices.
+* Test latency and packet loss.
+* Test server disconnections.
+* Test invalid client requests.
+* Profile CPU, GPU and memory.
+* Check crash logs.
+* Verify build configuration.
+* Document limitations and operating costs.
+
+Acceptance criteria: Release readiness is based on actual tests, not assumptions.
+
+# PART 26 — TESTING REQUIREMENTS
+
+Create a testing checklist for:
+
+* Project compilation.
+* Android installation.
+* Launch and startup.
+* Scene transitions.
+* Touch controls.
+* Weapon behavior.
+* Inventory transactions.
+* Health and armor.
+* Safe-zone behavior.
+* Network player spawning.
+* Two-client connectivity.
+* Movement synchronization.
+* Combat validation.
+* Matchmaking.
+* Disconnect and reconnect.
+* Server-authoritative victory.
+* Backend persistence.
+* Account security.
+* Performance and memory.
+* App background and resume.
+* APK installation and launch.
+
+Label each result as:
+
+PASS — tested successfully.
+
+FAIL — tested and failed.
+
+UNTESTED — implementation exists but has not been verified.
+
+NOT IMPLEMENTED — functionality is not available yet.
+
+Do not mark an item PASS without evidence.
+
+# PART 27 — DELIVERABLES
+
+Produce the following deliverables:
+
+1. A complete original game design document.
+2. A documented technology and architecture decision.
+3. A working, playable 3D prototype.
+4. Actual source files.
+5. Real multiplayer integration.
+6. A small-scale authoritative multiplayer match.
+7. A playable original battle royale map.
+8. Mobile touch controls.
+9. A functional weapon and inventory system.
+10. Matchmaking and match results.
+11. Backend integration where configured.
+12. Android build configuration.
+13. An installable APK when the build environment supports it.
+14. Source project ZIP.
+15. Backend deployment guide.
+16. Multiplayer server setup guide.
+17. Test report.
+18. Known issues and limitations.
+19. Instructions for future feature expansion.
+
+If a deliverable depends on a paid service, external credentials or infrastructure, explicitly identify that dependency.
+
+# FINAL EXECUTION INSTRUCTION
+
+Begin by identifying the selected AI Game Builder's capabilities and limitations.
+
+Then create a technically consistent architecture, initialize the project and complete Milestone 1.
+
+Continue with the combat prototype and real two-client networking before implementing the full battle royale feature set.
+
+Prioritize actual source code, working gameplay, real multiplayer verification and reliable Android builds over visual mockups.
+
+Do not invent completed files, server deployments, API credentials, test results or successful APK builds.
+
+The final objective is an original, genuinely playable, expandable and secure online 3D battle royale game called BATTLEZONE X.
